@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+#showProject input,button{
+    margin: 7px 0px;
+}
+
+#projectSection{
+    background-color: #dfdbdb;
+}
+.projectDiv{
+    border: #343a40 solid 2px;
+    background-color: burlywood;
+    width: 80%;
+    height: 50px;
+    margin: 10px 0px;
+    margin: auto;
+    
+}
+.projectDiv p{
+    float: left;
+    font-size: 1.2rem;
+    margin:  2px 10px;
+}
+.projectDiv button{
+    float: right;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+.modal{
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: #0c0c0c 1px solid;
+    border-radius: 10px;
+    z-index : 10;
+    background-color:#343a40;
+    width: 400px;
+    max-width: 60%;
+    max-height: 30%;
+    color: #dfdbdb;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#close{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.modal-todo{
+    width: 800px;
+    max-width: 70%;
+}
+.modall{
+    display: none;
+}
